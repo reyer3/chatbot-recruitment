@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hexágono base con borde redondeado -->
+  <path d="M256 40L448 160V352L256 472L64 352V160L256 40Z" 
+        stroke="#4285F4" 
+        stroke-width="8" 
+        fill="#1A1A1A"
+        rx="20"/>
+  
+  <!-- Red de figuras humanas -->
+  <!-- Figura central -->
+  <circle cx="256" cy="256" r="40" fill="#4285F4"/>
+  <path d="M256 216V196M236 236H216M276 236H296M256 296V276" 
+        stroke="#4285F4" 
+        stroke-width="4"/>
+  
+  <!-- Figuras radiales -->
+  <!-- Rojo -->
+  <circle cx="176" cy="216" r="24" fill="#DB4437"/>
+  <line x1="208" y1="228" x2="236" y2="244" stroke="#9AA0A6" stroke-width="2"/>
+  
+  <!-- Verde -->
+  <circle cx="336" cy="216" r="24" fill="#0F9D58"/>
+  <line x1="304" y1="228" x2="276" y2="244" stroke="#9AA0A6" stroke-width="2"/>
+  
+  <!-- Amarillo -->
+  <circle cx="176" cy="296" r="24" fill="#F4B400"/>
+  <line x1="208" y1="284" x2="236" y2="268" stroke="#9AA0A6" stroke-width="2"/>
+  
+  <!-- Azul secundario -->
+  <circle cx="336" cy="296" r="24" fill="#4285F4"/>
+  <line x1="304" y1="284" x2="276" y2="268" stroke="#9AA0A6" stroke-width="2"/>
+  
+  <!-- Conexiones -->
+  <path d="M176 240L336 272M176 272L336 240" 
+        stroke="#9AA0A6" 
+        stroke-width="1" 
+        stroke-dasharray="4 4"/>
+</svg>
