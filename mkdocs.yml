@@ -1,0 +1,133 @@
+site_name: AI Recruitment System
+site_description: Documentation for the AI-Powered Recruitment System
+site_author: Your Team
+repo_name: chatbot-recruitment
+repo_url: https://github.com/yourusername/chatbot-recruitment
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - announce.dismiss
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
+  - social:
+      cards_layout_options:
+        background_color: "#FFFFFF"
+        color: "#000000"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      title: En esta página
+
+nav:
+  - Home: 'README.md'
+  - Architecture:
+    - Overview: 'architecture/system-design.md'
+    - Clean Architecture: 'architecture/clean-architecture.md'
+    - Domain Events: 'architecture/domain-events.md'
+    - Decisions:
+      - Overview: 'architecture/decisions/README.md'
+      - 'Clean Architecture': 'architecture/decisions/0001-adopt-clean-architecture.md'
+      - 'ULID as Identifier': 'architecture/decisions/0002-use-ulid-as-identifier.md'
+      - 'Async First': 'architecture/decisions/0003-async-first-development.md'
+      - 'OpenAI Integration': 'architecture/decisions/0004-openai-integration.md'
+      - 'AI Processing Stack': 'architecture/decisions/0005-ai-processing-stack.md'
+      - 'WhatsApp Integration': 'architecture/decisions/0006-whatsapp-integration.md'
+      - 'Shared Kernel': 'architecture/decisions/0007-shared-kernel.md'
+  - Technical Guide:
+    - 'Setup': 'technical/setup.md'
+    - 'Development': 'technical/development.md'
+    - 'Testing': 'technical/testing.md'
+    - 'Contributing': 'technical/contributing.md'
+  - API:
+    - 'Endpoints': 'api/endpoints.md'
+  - Processes:
+    - 'CV Processing': 'processes/cv-processing.md'
+    - 'Recruitment': 'processes/recruitment.md'
+  - Integrations:
+    - 'OpenAI': 'integrations/openai-integration.md'
+    - 'WhatsApp': 'integrations/whatsapp-integration.md'
+  - Deployment:
+    - 'Configuration': 'deployment/configuration.md'
+  - Flows:
+    - 'Conversation Flows': 'flows/conversation-flows.md'
+
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  consent:
+    title: Cookies
+    description: >- 
+      Usamos cookies para reconocer sus visitas repetidas y preferencias, así
+      como para medir la efectividad de nuestra documentación y si los usuarios
+      encuentran lo que están buscando. Con su consentimiento, nos está ayudando
+      a mejorar nuestra documentación.
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/chatbot-recruitment
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/yourcompany
