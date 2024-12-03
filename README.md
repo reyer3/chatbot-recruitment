@@ -42,7 +42,7 @@ Sistema que automatiza el proceso de evaluación de currículums recibidos de po
 
 ## Estructura del Proyecto
 recruitment-system/
-├── docs/                     # Documentación del proyecto
+├── [docs/](docs/README.md)                     # Documentación del proyecto
 │   ├── [architecture/](docs/architecture/system-design.md)        # Diseño y arquitectura
 │   ├── [processes/](docs/processes/recruitment.md)          # Flujos de procesos
 │   └── [integrations/](docs/integrations/openai-integration.md)       # Guías de integración
@@ -99,6 +99,9 @@ recruitment-system/
 │   └── e2e/
 │
 └── README.md
+
+## Documentación
+Para más detalles, consulta nuestra [documentación completa](docs/README.md).
 
 ## Tecnologías
 - OpenAI API (Análisis de CVs)

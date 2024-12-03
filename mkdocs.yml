@@ -1,133 +1,140 @@
-site_name: AI Recruitment System
-site_description: Documentation for the AI-Powered Recruitment System
-site_author: Your Team
-repo_name: chatbot-recruitment
-repo_url: https://github.com/yourusername/chatbot-recruitment
+site_name: OnTalent Scout
+site_description: Connecting Talent Intelligently - Sistema automatizado para el análisis y evaluación de CVs utilizando IA
+site_author: OnTalent Scout Team
+site_url: "https://reyer3.github.io/chatbot-recruitment"
+repo_name: "chatbot-recruitment"
+repo_url: "https://github.com/reyer3/chatbot-recruitment"
+edit_uri: "edit/main/docs/"
 
 theme:
   name: material
-  language: es
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  font:
+    text: Roboto
+    code: JetBrains Mono
   features:
-    - navigation.instant
-    - navigation.tracking
+    - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
-    - navigation.footer
+    - navigation.tracking
+    - navigation.instant
+    - navigation.indexes
+    - navigation.expand
+    - search.suggest
     - search.highlight
     - search.share
-    - search.suggest
-    - content.code.copy
-    - content.code.annotate
+    - header.autohide
     - content.tabs.link
-    - announce.dismiss
+    - content.code.annotation
+    - content.code.copy
+  language: es
   palette:
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  icon:
-    repo: fontawesome/brands/github
-  font:
-    text: Roboto
-    code: Roboto Mono
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
-  - tags
   - git-revision-date-localized:
       enable_creation_date: true
-      type: datetime
+      type: date
+  - tags
   - social:
+      cards_layout: default
       cards_layout_options:
-        background_color: "#FFFFFF"
-        color: "#000000"
+        background_color: "#4285F4"
+        color: "#FFFFFF"
 
 markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - toc:
-      permalink: true
-      title: En esta página
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
 
 nav:
   - Home: 'README.md'
-  - Architecture:
-    - Overview: 'architecture/system-design.md'
-    - Clean Architecture: 'architecture/clean-architecture.md'
-    - Domain Events: 'architecture/domain-events.md'
-    - Decisions:
-      - Overview: 'architecture/decisions/README.md'
-      - 'Clean Architecture': 'architecture/decisions/0001-adopt-clean-architecture.md'
-      - 'ULID as Identifier': 'architecture/decisions/0002-use-ulid-as-identifier.md'
-      - 'Async First': 'architecture/decisions/0003-async-first-development.md'
-      - 'OpenAI Integration': 'architecture/decisions/0004-openai-integration.md'
-      - 'AI Processing Stack': 'architecture/decisions/0005-ai-processing-stack.md'
-      - 'WhatsApp Integration': 'architecture/decisions/0006-whatsapp-integration.md'
-      - 'Shared Kernel': 'architecture/decisions/0007-shared-kernel.md'
-  - Technical Guide:
+  - Arquitectura:
+    - 'Diseño del Sistema': 'architecture/system-design.md'
+    - 'Clean Architecture': 'architecture/clean-architecture.md'
+    - 'Domain Events': 'architecture/domain-events.md'
+    - 'Decisiones':
+        - 'Overview': 'architecture/decisions/README.md'
+        - 'Clean Architecture': 'architecture/decisions/0001-adopt-clean-architecture.md'
+        - 'ULID as Identifier': 'architecture/decisions/0002-use-ulid-as-identifier.md'
+        - 'Async First': 'architecture/decisions/0003-async-first-development.md'
+        - 'OpenAI Integration': 'architecture/decisions/0004-openai-integration.md'
+        - 'AI Processing Stack': 'architecture/decisions/0005-ai-processing-stack.md'
+        - 'WhatsApp Integration': 'architecture/decisions/0006-whatsapp-integration.md'
+        - 'Shared Kernel': 'architecture/decisions/0007-shared-kernel.md'
+  - Procesos:
+    - 'Procesamiento de CVs': 'processes/cv-processing.md'
+    - 'Reclutamiento': 'processes/recruitment.md'
+  - Guía Técnica:
     - 'Setup': 'technical/setup.md'
-    - 'Development': 'technical/development.md'
+    - 'Desarrollo': 'technical/development.md'
     - 'Testing': 'technical/testing.md'
-    - 'Contributing': 'technical/contributing.md'
+    - 'Contribución': 'technical/contributing.md'
   - API:
     - 'Endpoints': 'api/endpoints.md'
-  - Processes:
-    - 'CV Processing': 'processes/cv-processing.md'
-    - 'Recruitment': 'processes/recruitment.md'
-  - Integrations:
+  - Integraciones:
     - 'OpenAI': 'integrations/openai-integration.md'
     - 'WhatsApp': 'integrations/whatsapp-integration.md'
-  - Deployment:
-    - 'Configuration': 'deployment/configuration.md'
-  - Flows:
-    - 'Conversation Flows': 'flows/conversation-flows.md'
+  - Despliegue:
+    - 'Configuración': 'deployment/configuration.md'
+  - Flujos:
+    - 'Flujos de Conversación': 'flows/conversation-flows.md'
 
 extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
-  consent:
-    title: Cookies
-    description: >- 
-      Usamos cookies para reconocer sus visitas repetidas y preferencias, así
-      como para medir la efectividad de nuestra documentación y si los usuarios
-      encuentran lo que están buscando. Con su consentimiento, nos está ayudando
-      a mejorar nuestra documentación.
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/chatbot-recruitment
+      link: https://github.com/reyer3/chatbot-recruitment
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/company/yourcompany
+      link: https://linkedin.com/company/ontalentscout
+  generator: false
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/ontalentscout"  target="_blank" rel="noopener">OnTalent Scout</a>

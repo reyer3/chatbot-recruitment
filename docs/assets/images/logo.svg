@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hexágono base -->
+  <path d="M256 40L448 160V352L256 472L64 352V160L256 40Z" fill="url(#gradient1)"/>
+  
+  <!-- Cara del robot (simplificada) -->
+  <circle cx="192" cy="236" r="24" fill="white"/>
+  <circle cx="320" cy="236" r="24" fill="white"/>
+  <path d="M192 336C192 336 256 376 320 336" stroke="white" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- Definición de gradientes -->
+  <defs>
+    <linearGradient id="gradient1" x1="0" y1="256" x2="512" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2BB673"/>
+      <stop offset="1" stop-color="#FF5722"/>
+    </linearGradient>
+  </defs>
+</svg>

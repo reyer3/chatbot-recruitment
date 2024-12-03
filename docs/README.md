@@ -2,53 +2,30 @@
 
 ## Estructura de Documentación
 
-```
-docs/
-├── architecture/           # Decisiones y diseño arquitectónico
-│   ├── decisions/         # ADRs numerados
-│   └── diagrams/          # Diagramas de arquitectura
-│
-├── api/                   # Documentación de API
-│   ├── endpoints.md       # Especificación de endpoints
-│   └── schemas/          # Esquemas de datos
-│
-├── processes/            # Procesos de negocio
-│   ├── cv-processing.md  # Procesamiento de CVs
-│   └── recruitment.md    # Flujo de reclutamiento
-│
-├── integrations/         # Integraciones externas
-│   ├── whatsapp/        # Integración WhatsApp
-│   └── openai/          # Integración OpenAI
-│
-└── deployment/          # Configuración y despliegue
-    ├── configuration.md # Variables de entorno
-    └── kubernetes/      # Configuración K8s
-```
-
 ## Visión General
 
 Sistema de reclutamiento potenciado por IA que integra:
-- Análisis automático de CVs
-- Chat por WhatsApp
-- Evaluación de candidatos
-- Seguimiento de procesos
+- [Análisis automático de CVs](processes/cv-processing.md)
+- [Chat por WhatsApp](integrations/whatsapp-integration.md)
+- [Evaluación de candidatos](processes/recruitment.md)
+- [Seguimiento de procesos](processes/recruitment.md)
 
 ## Arquitectura
 
 ### Componentes Principales
 1. **Core Backend (Python/FastAPI)**
-   - Clean Architecture
-   - Domain-Driven Design
-   - Async-first
-   - ULID como identificadores
+   - [Clean Architecture](architecture/clean-architecture.md)
+   - [Domain-Driven Design](architecture/system-design.md)
+   - [Async-first Development](architecture/decisions/0003-async-first-development.md)
+   - [ULID como identificadores](architecture/decisions/0002-use-ulid-as-identifier.md)
 
 2. **WhatsApp Service (Node.js)**
-   - BuilderBot framework
-   - Microservicio independiente
-   - Comunicación por mensajería
+   - [BuilderBot framework](builder-bot/es/index.mdx)
+   - [Microservicio independiente](architecture/system-design.md)
+   - [Comunicación por mensajería](flows/conversation-flows.md)
 
 3. **AI Stack**
-   - LangChain para orquestación
+   - [LangChain para orquestación](integrations/openai-integration.md)
    - Qdrant para búsqueda vectorial
    - LangGraph para flujos
    - LangSmith para monitoreo
