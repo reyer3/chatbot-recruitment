@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/api/endpoints/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/api/endpoints/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/clean-architecture/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/clean-architecture/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/domain-events/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/domain-events/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/system-design/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/system-design/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/decisions/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/decisions/0001-adopt-clean-architecture/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0001-adopt-clean-architecture/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/decisions/0002-use-ulid-as-identifier/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0002-use-ulid-as-identifier/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/decisions/0003-async-first-development/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0003-async-first-development/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/decisions/0004-openai-integration/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0004-openai-integration/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/decisions/0005-ai-processing-stack/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0005-ai-processing-stack/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/decisions/0006-whatsapp-integration/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0006-whatsapp-integration/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/architecture/decisions/0007-shared-kernel/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0007-shared-kernel/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/deployment/configuration/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/deployment/configuration/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/flows/conversation-flows/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/flows/conversation-flows/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/integrations/openai-integration/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/integrations/openai-integration/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/integrations/whatsapp-integration/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/integrations/whatsapp-integration/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/processes/cv-processing/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/processes/cv-processing/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/processes/recruitment/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/processes/recruitment/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/technical/contributing/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/technical/contributing/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/technical/development/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/technical/development/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/technical/setup/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/technical/setup/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
-         <loc>https://ontalent-scout.github.io/chatbot-recruitment/technical/testing/</loc>
-         <lastmod>2024-12-03</lastmod>
+         <loc>https://reyer3.github.io/chatbot-recruitment/technical/testing/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
 </urlset>
