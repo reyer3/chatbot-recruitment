@@ -50,18 +50,6 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-plugins:
-  - search
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
-  - tags
-  - social:
-      cards_layout: default
-      cards_layout_options:
-        background_color: "#4285F4"
-        color: "#FFFFFF"
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -84,6 +72,13 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - tags
 
 nav:
   - Home: 'README.md'

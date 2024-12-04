@@ -4,8 +4,8 @@ on:
     branches:
       - main
     paths:
-      - 'docs/**'
-      - 'mkdocs.yml'
+      - 'docs-app/docs/**'
+      - 'docs-app/mkdocs.yml'
   workflow_dispatch:
 
 permissions:
@@ -28,8 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs-material
-          pip install pillow cairosvg
+          pip install -r docs-app/requirements.txt
 
       - name: Configure Git user
         run: |
@@ -37,4 +36,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
 
       - name: Deploy documentation
+        working-directory: ./docs-app
         run: mkdocs gh-deploy --force
