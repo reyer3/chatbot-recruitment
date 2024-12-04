@@ -53,6 +53,14 @@
          <lastmod>2024-12-04</lastmod>
     </url>
     <url>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0008-implement-cqrs-pattern-early/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://reyer3.github.io/chatbot-recruitment/architecture/decisions/0009-implement-cache-and-transactions/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
          <loc>https://reyer3.github.io/chatbot-recruitment/deployment/configuration/</loc>
          <lastmod>2024-12-04</lastmod>
     </url>
@@ -77,6 +85,10 @@
          <lastmod>2024-12-04</lastmod>
     </url>
     <url>
+         <loc>https://reyer3.github.io/chatbot-recruitment/technical/cache-and-transactions/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
          <loc>https://reyer3.github.io/chatbot-recruitment/technical/contributing/</loc>
          <lastmod>2024-12-04</lastmod>
     </url>
@@ -86,6 +98,10 @@
     </url>
     <url>
          <loc>https://reyer3.github.io/chatbot-recruitment/technical/setup/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://reyer3.github.io/chatbot-recruitment/technical/shared-module/</loc>
          <lastmod>2024-12-04</lastmod>
     </url>
     <url>
